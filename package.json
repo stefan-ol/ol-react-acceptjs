@@ -1,0 +1,55 @@
+{
+  "name": "ol-react-acceptjs",
+  "version": "0.0.1",
+  "description": "A lightweight, modern React implementation of Authorize.net's Accept.JS library for easily submitting credit card information to the Authorize.net platform. Fork of react-acceptjs.",
+  "author": "stefan",
+  "license": "MIT",
+  "repository": "stefan-ol/ol-react-acceptjs",
+  "keywords": [
+    "react",
+    "authorize.net",
+    "accept.js",
+    "payment",
+    "credit-card"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.modern.js",
+  "source": "src/index.ts",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c --watch",
+    "lint": "eslint . --fix"
+  },
+  "peerDependencies": {
+    "react": "18 - 19"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "@typescript-eslint/eslint-plugin": "^8.49.0",
+    "@typescript-eslint/parser": "^8.49.0",
+    "eslint": "^9.39.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.7.4",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.49.0"
+  },
+  "files": [
+    "dist"
+  ]
+}
