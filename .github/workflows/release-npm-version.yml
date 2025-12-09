@@ -26,6 +26,8 @@ jobs:
 
       - name: Install Dependencies
         run: npm ci
+      - name: Build
+        run: npm run build
       - name: Promote from @next
         run: |
           [[ -f .changeset/pre.json ]] && { git config user.email "github-actions[bot]@users.noreply.github.com"; git config user.name "github-actions[bot]"; npx changeset pre exit; npx changeset version; git add -u; git commit -m "chore: promote from @next" --no-verify; git push --follow-tags; } || echo 'not in pre mode, no need to exit'
