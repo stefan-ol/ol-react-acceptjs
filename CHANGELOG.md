@@ -4,7 +4,7 @@
 
 ### Patch Changes
 
-- Initial Version tracking
+- Initial Version tracking added
 
 ## 0.0.1
 
