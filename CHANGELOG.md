@@ -1,5 +1,11 @@
 # ol-react-acceptjs
 
+## 0.0.4
+
+### Patch Changes
+
+- another test or npm release
+
 ## 0.0.3
 
 ### Patch Changes
