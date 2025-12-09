@@ -1,5 +1,11 @@
 # ol-react-acceptjs
 
+## 0.1.0
+
+### Minor Changes
+
+- Update
+
 ## 0.0.9
 
 ### Patch Changes
