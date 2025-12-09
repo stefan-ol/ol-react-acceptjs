@@ -1,5 +1,11 @@
 # ol-react-acceptjs
 
+## 0.0.7
+
+### Patch Changes
+
+- pub
+
 ## 0.0.6
 
 ### Patch Changes

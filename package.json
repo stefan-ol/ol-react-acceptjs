@@ -1,6 +1,6 @@
 {
   "name": "ol-react-acceptjs",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A lightweight, modern React implementation of Authorize.net's Accept.JS library for easily submitting credit card information to the Authorize.net platform. Fork of react-acceptjs.",
   "author": "stefan-ol",
   "license": "MIT",
