@@ -26,7 +26,8 @@
     "start": "rollup -c --watch",
     "lint": "eslint . --fix",
     "publish:packages": "npm run build && changeset && changeset version && changeset publish",
-    "publish:prepare": "npm run build && changeset && changeset version"
+    "publish:prepare": "npm run build && changeset && changeset version",
+    "release": "npm run build && changeset publish"
   },
   "peerDependencies": {
     "react": "18 - 19"
